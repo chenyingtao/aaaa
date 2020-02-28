@@ -1,11 +1,11 @@
-.App {
+/*.App {
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+}*/
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +35,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+{
+  padding:0px;
+  margin: 0px;
+  text-decoration: none;
+  color: #000;
+}
+.nav{
+	display: flex;
+	position: absolute;
+	bottom: 0rem;
+	width: 100%;
+}
+.nav >a{
+	flex: 1;
+	text-align: center;
+	font-size: 0.5rem;
+	background: #fff;
+	height: 1rem;
+	line-height: 1rem;
+}
+.box{
+	
+}
+.router_head{
+	padding: 1rem 0rem;
+	background: #ccc;
+
+}
+/* /////////////// */
+.comp1{
+	display: flex;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 0.5rem;
+	height: 2.5rem;
+	margin: 0px 0.8rem;
+}
+.comp1>div{
+	flex: 1 ;
+	box-sizing: border-box;
+	padding-top: 0.5rem;
+	margin: 0rem 1.15rem;
 }
